@@ -19,3 +19,8 @@ let arrs = [3,4,1,8,7]
     return e1 - e2
 }) 
 console.log(res)
+
+var arrss = ['萧炎', '美杜莎', '云韵', '海波东']
+arrs.sort((row1, row2) => {
+ return row1.localeCompare(row2) ? 1 : -1
+})
