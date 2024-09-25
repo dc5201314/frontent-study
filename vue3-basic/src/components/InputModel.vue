@@ -9,10 +9,10 @@
    import { ref } from 'vue'
    // 定义单选框的选项状态
    const selectedOption = ref<string>('A') // 初始值为选项 A
-   </script> -->
+   </script>  -->
 
 
-   <!-- <template>
+<!-- <template>
     <div>
     <input type="checkbox" v-model="isChecked" /> 勾选此项
     <p>复选框状态：{{ isChecked ? '已勾选' : '未勾选' }}</p>
@@ -22,9 +22,9 @@
    import { ref } from 'vue'
    // 定义复选框的绑定状态
    const isChecked = ref<boolean>(false) // 初始状态为未勾选
-   </script> -->
+   </script>  -->
 
-   <!-- <template>
+<!-- <template>
     <div>
     <select v-model="selectedItem">
     <option disabled value="">请选择⼀个选项</option>
@@ -42,7 +42,7 @@
    </script> -->
 
 
-   <!-- <template>
+<!-- <template>
     <div>
     <label><input type="checkbox" v-model="selectedFruits" value="苹果" />
    苹果</label>
